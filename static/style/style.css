@@ -1,0 +1,78 @@
+h1 {
+    color:red;
+
+}
+/*
++h1- selector
++color - property
++ read - value
+ */
+
+/*style cho selector (tag selector)
+
+ */
+p {
+    font-weight: bold;
+
+}
+/*style theo id (id selector)
+ */
+#p1 {
+    background: #4033ff;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 5px red solid;
+    margin: 100px;
+    display: inline-block;
+}
+}
+
+/*style theo class (class selector)
+
+ */
+.comicsans{
+    font-family: "Comic Sans MS";
+}
+.bluetext {
+    color: blue;
+}
+/*style theo attribue
+
+ */
+[type="text"] {
+    border: 2px solid red;
+}
+
+[href] {
+    text-shadow: 3px -2px red;
+}
+
+/*selector kieu cha - con*/
+ul li {
+    list-style: none;/*none= bo dau .*/
+}
+
+ol li {
+    list-style: hiragana-iroha;/*none= bo dau .*/
+}
+
+div > a { /* > con truc tiep, chi tac dong len the ngay duoi*/
+    color: orange;
+}
+
+/*style theo trang thai*/
+
+img:hover{
+    box-shadow: 0 0 30px cyan;
+    border-radius: 100%;
+}
+a:active {
+    color=orange;
+}
+input:focus {
+    border-radius: 10px;
+    outline: none ;
+    color: darkorchid;
+    border-color: darkorchid;
+}
